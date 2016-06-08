@@ -1,0 +1,18 @@
+<template>
+  <section>
+    <h2>${heading}</h2>
+    <div class="row au-stagger">
+      <div class="col-sm-6 col-md-3 card-container" repeat.for="user of users">
+        <div class="card">
+          <div class="heading">
+            <p class="title">${user.title}</p>
+          </div>
+          <div class="content">
+            <p class="name">${user.description}</p>
+            <p><a target="_blank" class="btn btn-default" href.bind="user.speaker">Contact</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
