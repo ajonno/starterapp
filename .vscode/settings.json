@@ -1,0 +1,5 @@
+{
+    // The proxy setting to use. If not set will be taken from the http_proxy and https_proxy environment variables
+    "http.proxy": "http://54.252.183.4"
+
+}
